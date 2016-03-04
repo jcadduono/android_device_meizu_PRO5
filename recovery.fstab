@@ -1,0 +1,7 @@
+/boot		emmc		/dev/block/platform/15570000.ufs/by-name/boot
+/recovery		emmc		/dev/block/platform/15570000.ufs/by-name/recovery
+/system		ext4		/dev/block/platform/15570000.ufs/by-name/system
+/data		ext4		/dev/block/platform/15570000.ufs/by-name/userdata	flags=encryptable=/cache/metadata
+/cache		ext4		/dev/block/platform/15570000.ufs/by-name/cache
+/efs			ext4		/dev/block/platform/15570000.ufs/by-name/efs		flags=backup=1;display="EFS"
+/usbstorage	vfat		/dev/block/sde1 /dev/block/sde				flags=display="USB Storage";storage;wipeingui;removable
